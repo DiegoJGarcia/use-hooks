@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 30px;
+  cursor: pointer;
+  width: 30vw;
+  min-width: 200px;
+  height: auto;
+  max-height: 280px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  font-weight: 500;
+  background: rgb(52, 52, 52);
+  color: whitesmoke;
+  transition: 1s;
+  &:hover {
+    transform: scale(1.02);
+    border: 1px solid black;
+    background: rgb(57, 112, 208);
+  }
+}

@@ -1,0 +1,41 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template: 2fr 5fr 3fr / 100vw;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+}
+
+.light {
+  background: rgb(234, 234, 234);
+  h1 {
+    color: rgb(26, 26, 26);
+  }
+  .card {
+    background: rgb(150, 150, 150);
+  }
+}
+
+.dark {
+  background: rgb(30, 30, 30);
+}
+
+::-webkit-scrollbar {
+  position: absolute;
+  width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px 1px rgba(65, 65, 65, 0.781);
+  border: solid 1px whitesmoke;
+  background: rgb(225, 225, 225);
+  border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 10px 10px rgba(26, 63, 126, 0.89);
+  border: solid 3px transparent;
+  border-radius: 10px;
+}
