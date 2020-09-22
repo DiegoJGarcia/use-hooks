@@ -17,13 +17,10 @@ const MemoHook = () => {
 		setItems([...items, newItem]);
 	};
 
-	//const changeData = useMemo(() => {}, []);
-
 	const filteredItems = useMemo(() => {
 		console.log('Filtrando..');
 		return items.filter(item => item.text.includes(searcher));
-	}, []);
-	// }, [searcher, items]);
+	}, [searcher, items]);
 
 	const cleanAll = () => {
 		setInput('');

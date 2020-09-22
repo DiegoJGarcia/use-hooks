@@ -16,5 +16,4 @@ const Card = props => {
 	);
 };
 
-export default Card;
-//export default memo(Card);
+export default memo(Card);
